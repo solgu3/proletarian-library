@@ -1,0 +1,261 @@
+@font-face {
+    font-family: 'oso';
+    src: url('../fonts/oso1.woff2') format('woff2'), url('../fonts/oso1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'oso';
+    src: url('../fonts/oso1i.woff2') format('woff2'), url('../fonts/oso1i.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'oso';
+    src: url('../fonts/oso2.woff2') format('woff2'), url('../fonts/oso2.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'oso';
+    src: url('../fonts/oso2i.woff2') format('woff2'), url('../fonts/oso2i.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: block;
+}
+
+body {
+    font-family: "oso";
+    letter-spacing: calc(1rem / 192);
+    word-spacing: calc(5rem / 48);
+}
+
+/*******************
+*** responsivity ***
+*******************/
+@media screen and (max-aspect-ratio: 2/3) {
+    :root {
+        font-size: 3vw;
+    }
+}
+
+@media screen and (min-aspect-ratio: 2/3) {
+    :root {
+        font-size: 2vh;
+    }
+}
+
+/******************
+*** text sizing ***
+******************/
+header .container-bar-button span,
+#home footer .container-bar-button span {
+    font-size: calc(33rem / 24);
+    line-height: 0;
+}
+
+
+footer .container-bar-button span,
+#location {
+    font-size: calc(33rem / 24);
+}
+
+#settings-title,
+#container-menu > nav ul li,
+.navigation ul li,
+#menu summary,
+.archives li,
+#settings li {
+    font-size: calc(27rem / 24);
+    line-height: calc(33rem / 24);
+}
+
+.visits li,
+.contact li {
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+#home h1 {
+    font-size: 2rem;
+    line-height: 3rem;
+    text-align: center;
+}
+
+html:not(#home) h1,
+summary {
+    font-size: calc(calc(37rem / 24) + var(--size-text));
+    line-height: calc(calc(37rem / 24) + var(--size-text) + var(--size-line) + var(--size-spacing));
+}
+
+h2 {
+    font-size: calc(calc(35rem / 24) + var(--size-text));
+    line-height: calc(calc(35rem / 24) + var(--size-text) + var(--size-line) + var(--size-spacing));
+}
+
+h3,
+.title .author {
+    font-size: calc(calc(33rem / 24) + var(--size-text));
+    line-height: calc(calc(33rem / 24) + var(--size-text) + var(--size-line) + var(--size-spacing));
+}
+
+h4,
+.contents ul li,
+.title .date {
+    font-size: calc(calc(31rem / 24) + var(--size-text));
+    line-height: calc(calc(31rem / 24) + var(--size-text) + var(--size-line) + var(--size-spacing));
+}
+
+h5,
+.title .resource {
+    font-size: calc(calc(29rem / 24) + var(--size-text));
+    line-height: calc(calc(29rem / 24) + var(--size-text) + var(--size-line) + var(--size-spacing));
+}
+
+h6 {
+    font-size: calc(calc(27rem / 24) + var(--size-text));
+    line-height: calc(calc(27rem / 24) + var(--size-text) + var(--size-line) + var(--size-spacing));
+}
+
+p,
+li,
+div.footnote,
+div.update,
+blockquote,
+blockquote + span,
+table {
+    font-size: calc(calc(25rem / 24) + var(--size-text));
+    line-height: calc(calc(25rem / 24) + var(--size-text) + var(--size-line) + var(--size-spacing));
+}
+
+[data-location]::before,
+p:before,
+blockquote:before,
+.text li:before {
+    font-size: calc(calc(13rem / 24) + var(--size-text));
+    line-height: calc(calc(13rem / 24) + var(--size-text) + var(--size-line) + var(--size-spacing));
+    font-weight: normal;
+}
+
+#settings-title,
+#footer-span-right,
+#location,
+#notes,
+.container-bar-button span,
+#settings li,
+.archives li,
+.navigation ul li,
+#container-menu > nav ul li,
+summary,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a.note,
+a[href$=".zip"],
+p.strong,
+li::marker,
+.description,
+.title .author,
+.title .date,
+.title .resource,
+.contents ul li {
+    font-weight: bold;
+}
+
+.description {
+    font-style: italic;
+}
+
+.description:before {
+    content: "[";
+}
+
+.description:after {
+    content: "]";
+}
+
+/***********************
+*** text hyphenation ***
+***********************/
+p,
+blockquote,
+.text li,
+.notes li,
+.description,
+.updates span:nth-child(2) {
+    text-align: var(--text-alignment);
+    hyphens: var(--text-hyphenation);
+}
+
+/*****************
+*** text color ***
+*****************/
+body {
+    color: var(--color-text-medium);
+}
+
+#footer-span-right,
+#menu summary,
+[data-location]::before,
+p:before,
+blockquote:before,
+.text li:before,
+#settings-title,
+#settings li,
+.container-bar-button span {
+    color: var(--color-text-weak);
+}
+
+summary,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a.note,
+p.strong,
+li.author,
+li.date,
+.color {
+    color: var(--color-text-strong);
+}
+
+#settings-title,
+#settings,
+li::marker {
+    color: var(--color-text-strong-alt);
+}
+
+a:link {
+    color: var(--color-link-normal);
+}
+
+a:visited {
+    color: var(--color-link-visited);
+}
+
+.meta h1,
+.meta li::marker,
+.meta li.author,
+.meta li.date,
+.meta summary {
+    color: var(--color-text-strong-alt);
+}
+
+.meta a:link {
+    color: var(--color-link-normal-alt);
+}
+
+.meta a:visited {
+    color: var(--color-link-visited-alt);
+}

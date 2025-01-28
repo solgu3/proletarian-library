@@ -1,0 +1,113 @@
+
+
+.meta a:link {
+    color: var(--color-link-normal);
+}
+
+.meta a:visited {
+    color: var(--color-link-visited);
+}
+
+.meta details > summary {
+    color: var(--color-text-strong);
+}
+
+details.meta[open] details:not(:last-child)[open],
+details.meta[open]:not(.archives) > summary {
+    border-bottom: var(--size-margin) solid var(--color-border-delimiter);
+    border-image-repeat: repeat;
+    border-image-slice: 85 0;
+    border-image-source: var(--delimiter);
+}
+
+details.meta[open]:not(.archives) > summary {
+    padding-bottom: var(--size-margin);
+}
+
+/*************
+*** videos ***
+*************/
+video {
+    cursor: pointer;
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    height: auto;
+}
+
+.video-container {
+    text-align: center;
+    font-weight: bold;
+    margin: var(--size-margin) auto;
+}
+
+.video-container * {
+    display: block;
+}
+
+/**************
+*** banners ***
+**************/
+.container-banner {
+    display: grid;
+    grid-template-columns: auto 15rem auto;
+}
+
+.container-banner * {
+    width: 100%;
+    height: 100%;
+}
+
+.container-banner > .img-container {
+    width: 15rem;
+    height: 15rem;
+    position: relative;
+}
+
+.container-banner img {
+    background-size: 7.45rem;
+    background-image: var(--image-background);
+}
+
+.container-banner .cover {
+    display: block;
+    position: absolute;
+    top: 0;
+}
+
+svg:focus {
+    outline: none;
+}
+
+svg.invert {
+    transform: scaleX(-1);
+}
+
+#inti, #crimsonearth {
+    /* fixing rounding errors */
+    width: calc(100% - 2px);
+    height: calc(100% - 2px);
+    position: relative;
+    left: 1px;
+    top: 1px;
+}
+
+#inti {
+    background-position: bottom;
+}
+
+#crimsonearth {
+    background-color: var(--color-background-side);
+    background-position: bottom right;
+}
+
+#cover {
+    d: path("M 0 0 L 0 360 L 360 360 L 360 0 L 0 0 z M 180 1 A 179 179 0 0 1 359 180 A 179 179 0 0 1 180 359 A 179 179 0 0 1 1 180 A 179 179 0 0 1 180 1 z");
+}
+
+#glowsickle {
+    d: path("m360 315-70-70C358 136 283 2 160 0c83 18 124 130 85 200l-85-80 45-45-20-20c-20 17-47 15-65-5L15 150l60 60 45-45 80 80c-35 20-86 21-125-5L0 315l45 45 55-55c56 22 110 8 145-15l70 70z");
+}
+
+#neocities {
+    min-height: 31px;
+}

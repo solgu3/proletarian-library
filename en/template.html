@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is a description of the page.">
+    <meta name="color-scheme" content="dark light">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="../js/setup.js"></script>
+    <link id="theme-system" href="../css/theme-system.css" rel="stylesheet">
+    <link id="theme-dark" href="../css/theme-dark.css" rel="stylesheet" disabled>
+    <link id="theme-light" href="../css/theme-light.css" rel="stylesheet" disabled>
+    <link rel="preload" href="../fonts/noto-sans-v27-latin-500.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="../fonts/noto-sans-v27-latin-700.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link href="../css/styling-fonts.css" rel="stylesheet">
+    <link href="../css/styling-all.css" rel="stylesheet">
+    <title>PageTitle</title>
+</head>
+
+<body>
+    <div class="body-side"></div>
+    <div class="body-center">
+        <header>
+            <details id="menu">
+                <summary>
+                    <span class="container-bar-button">
+                        <svg class="cover" width="788" height="60" viewBox="0 0 788 60">
+                            <path id="menu-cover" />
+                        </svg>
+                        <img width="42" height="42" src="../img/inti.svg" alt="">
+                        <span>Menu</span>
+                        <img width="42" height="42" src="../img/inti.svg" alt="">
+                    </span>
+                </summary>
+                <div id="container-menu">
+                    <nav class="navigation section">
+                        <ul>
+                            <li><a href="index.html">Proletarian Library</a></li>
+                        </ul>
+                    </nav>
+                    <ul class="settings section">
+                        <li id="settings-description" class="description">Settings are disabled if JavaScript is not working.</li>
+                        <div id="settings">
+                            <li id="settings-size"><span>Size:</span> <span>Regular</span></li>
+                            <li id="settings-margins"><span>Margins:</span> <span>Regular</span></li>
+                            <li id="settings-spacing"><span>Spacing:</span> <span>Regular</span></li>
+                            <li id="settings-alignment"><span>Alignment:</span> <span>Justified</span></li>
+                            <li id="settings-hyphenation"><span>Hyphens:</span> <span>Off</span></li>
+                            <li id="settings-delimiters"><span>Delimiters:</span> <span>Off</span></li>
+                            <li id="settings-numbers"><span>Page Numbers:</span> <span>Off</span></li>
+                            <li id="settings-position"><span>Save Position:</span> <span>Off</span></li>
+                            <li id="settings-theme"><span>Light Or Dark:</span> <span>Auto</span></li>
+                            <li id="settings-background"><span>Background:</span> <span>Static</span></li>
+                            <li id="settings-data"><span>Reset Settings:</span> <span>Disabled</span></li>
+                        </div>
+                    </ul>
+                </div>
+            </details>
+        </header>
+        <main>
+            <div class="title section">
+                <ul class="card">
+                    <li>
+                        <h1>PageTitle</h1>
+                    </li>
+                    <li class="author">Author</li>
+                    <li class="date">Date</li>
+                    <li class="description">This is a description of the page.</li>
+                    <li class="resource"><a href="" target="_blank">[Source]</a></li>
+                </ul>
+            </div>
+            <div class="text section">
+                <h2>Main Content</h2>
+                <p>Main text.<span class="offset" id="1t"></span><a class="note" href="#1b">[1]</a> </p>
+                <blockquote>This is a test of the blockquote and its wrapping. This is a test of the blockquote and its wrapping.</blockquote>
+                <span>— Attribution (Blockquote Span)</span>
+                <p>This is a test of the paragraph wrapping.<span class="offset" id="2t"></span><a class="note" href="#2b">[2]</a> This is a test of the paragraph wrapping.</p>
+                <blockquote>Test</blockquote>
+                <h3>List 1</h3>
+                <ul>
+                    <li>List Item 1</li>
+                    <li>List Item 2</li>
+                    <li>List Item 3</li>
+                </ul>
+                <h3 data-location-include>List 2 (Location Included)</h3>
+                <ol>
+                    <li>List Item 1</li>
+                    <li data-location-exclude>List Item 2 (Location Excluded)</li>
+                    <li>List Item 3</li>
+                </ol>
+            </div>
+            <div class="notes section">
+                <h2>Notes</h2>
+                <ul>
+                    <li><a class="note" id="1b" href="#1t">[1]</a> Footnote. This is a test of the footnote wrapping. This is a test of the footnote wrapping. This is a test of the footnote wrapping.</li>
+                    <li><a class="note" id="2b" href="#2t">[2]</a> Footnote. This is a test of the footnote wrapping. This is a test of the footnote wrapping. This is a test of the footnote wrapping.</li>
+                </ul>
+            </div>
+        </main>
+        <footer>
+            <a href="#">
+                <div class="container-bar-button">
+                    <svg class="cover" width="788" height="60" viewBox="0 0 788 60">
+                        <use href="#menu-cover" />
+                    </svg>
+                    <img width="42" height="42" src="../img/inti.svg" alt="">
+                    <span>Top</span>
+                    <img width="42" height="42" src="../img/inti.svg" alt="">
+                </div>
+            </a>
+        </footer>
+    </div>
+    <div class="body-side"></div>
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="303.70901"
+   height="372.27701"
+   viewBox="0 0 80.356342 98.498295"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="proletarian-feminism.svg"
+   inkscape:export-filename="C:\Users\Eris\Desktop\crimsonemblem.png"
+   inkscape:export-xdpi="6"
+   inkscape:export-ydpi="6"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="true"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.0482005"
+     inkscape:cx="-409.27285"
+     inkscape:cy="0.95401596"
+     inkscape:window-width="2560"
+     inkscape:window-height="1376"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g178"
+     units="px"
+     height="372.277px">
+    <inkscape:grid
+       type="xygrid"
+       id="grid9" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:none">
+    <rect
+       style="fill:#000000;fill-rule:evenodd;stroke-width:0.264576"
+       id="rect72"
+       width="270.93332"
+       height="234.63356"
+       x="0"
+       y="0" />
+    <path
+       id="rect8439"
+       style="display:inline;opacity:0.463235;fill:#9900cc;fill-opacity:1;stroke-width:0.999995"
+       d="M 135.46666,4.8180664e-5 -1.7258203e-5,234.63356 H 270.93332 Z" />
+  </g>
+  <g
+     inkscape:label="Layer 1 copy"
+     inkscape:groupmode="layer"
+     id="g178"
+     style="display:inline">
+    <g
+       id="g9402"
+       transform="matrix(0.20868922,-0.00291403,0.00291403,0.20868922,-1.384184,-2.3760396)"
+       style="fill:#af69ef;fill-opacity:1;stroke-width:1.26772">
+      <path
+         d="m 108.229,264.679 c -34.682,-47.708 -11.77,-99.025 -11.77,-99.025 22.755,-54.77 79.878,-68.423 79.878,-68.423 L 170.845,72.279 C 142.91,76.674 112.466,99.114 112.466,99.114 L 90.024,75.731 111.21,55.173 94.261,38.068 72.292,58.469 48.438,33.831 H 73.076 L 73.075,12.405923 6.6390427,11.478246 5.6303999,71.783826 27.029597,72.082633 27.891226,45.854426 55.029,75.574 30.861,97.388 l 16.32,17.106 23.698,-20.872 22.127,24.481 c 0,0 -33.897,40.018 -32.8,80.193 0,0 0.471,54.142 26.521,86 z"
+         id="path9398"
+         style="fill:#af69ef;fill-opacity:1;stroke-width:1.26772"
+         sodipodi:nodetypes="cccccccccccccccccccccccc" />
+      <path
+         d="m 305.88655,281.64211 55.34548,51.3237 c -4.237,15.222 -23.22597,26.83325 -23.22597,26.83325 l -53.46251,-54.77295 c -31.229,28.248 -75.483,32.799 -75.483,32.799 l -0.942,86.627 34.054,0.941 -1.098,28.405 -31.7,0.627 -0.78503,31.85898 -32.13383,-0.5609 -0.97914,-30.98408 h -35.78 l 0.941,-29.033 h 35.153 l 0.157,-89.137 c -42.686,-7.376 -64.97,-29.975 -64.97,-29.975 l -57.501011,53.22601 c -13.34,-6.905 -19.4879,-19.36648 -19.4879,-19.36648 l 80.283911,-68.85553 c 0,0 27.463,39.233 77.524,37.664 0,0 40.488,0.156 68.736,-26.521 l -55.866,-54.926 -18.048,20.558 -34.368,-31.543 47.55,-52.729 51.631,8.003 -30.445,35.31 58.065,53.984 c 0,0 24.168,-34.681 21.656,-68.893 0,0 -6.8686,-47.57417 -21.3516,-62.97417 0,0 -42.6774,-51.899832 -101.5264,-56.451832 0,0 50.5684,-15.560174 108.4754,28.223832 l 62.72205,-63.618701 -29.05256,-0.405675 0.23905,-21.421725 71.23666,0.994713 -0.94731,65.999924 -21.82475,-0.320959 0.31546,-31.070279 -65.1116,68.990702 c 0,0 27.1136,40.35617 26.8006,79.90317 -0.313,39.546 -8.789,56.964 -24.796,81.288 z"
+         id="path9400"
+         style="fill:#af69ef;fill-opacity:1;stroke-width:1.26772"
+         sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccccsc" />
+    </g>
+  </g>
+</svg>

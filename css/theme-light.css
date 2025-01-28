@@ -1,0 +1,43 @@
+:root {
+    --theme: "light";
+
+    --black: #000;
+    --white: #EEE;
+    --gray-light: #DDD;
+    --gray-dark: #666;
+    --gold-light: #C93;
+    --gold-medium: #852;
+    --gold-dark: #531;
+    --blue-light: #36B;
+    --blue-dark: #03A;
+
+    --image-background-static: url("../img/waves-static-light.webp");
+    --image-background-animated: url("../img/waves-animated-light.webp");
+
+    --image-inti: url("../img/inti.svg#light");
+
+    --image-border: url("../img/waves-border-light.webp");
+    --image-border-alt: url("../img/waves-alt-border-light.webp");
+
+    --color-background-main: var(--white);
+    --color-background-side: var(--blue-light);
+
+    --color-highlight: var(--gray-light);
+
+    --color-text-weak: var(--gray-dark);
+    --color-text-medium: var(--black);
+    --color-text-strong: var(--gold-medium);
+    --color-text-strong-alt: var(--blue-light);
+
+    --color-link-normal: var(--gold-medium);
+    --color-link-visited: var(--gold-dark);
+    --color-link-normal-alt: var(--blue-light);
+    --color-link-visited-alt: var(--blue-dark);
+
+    --color-border: var(--gold-light);
+    --color-border-alt: var(--blue-light);
+    --color-border-delimiter: var(--gray-light);
+
+    --color-scrollbar-thumb: var(--gold-light);
+    --color-scrollbar-background: var(--blue-light);
+}
