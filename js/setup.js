@@ -153,10 +153,8 @@ function createHeader() {
                 </ul> \
             </nav> \
             <ul class="archives section" style="display: flex; justify-content: space-between; margin: 0;"> \
-                <li style="margin-bottom: 0;"><a href="https://mega.nz/folder/f6JnUA5Z#V96Im1UjZr0HIyTwgIgv2w" target="_blank">[Archives]</a></li> \
-                <li style="margin-bottom: 0;"><a href="https://mega.nz/folder/f6JnUA5Z#V96Im1UjZr0HIyTwgIgv2w" target="_blank">[Archivos]</a></li> \
-                <li style="margin-bottom: 0;"><a href="https://mega.nz/folder/f6JnUA5Z#V96Im1UjZr0HIyTwgIgv2w" target="_blank">[Archives]</a></li> \
-                <li style="margin-bottom: 0;"><a href="https://mega.nz/folder/f6JnUA5Z#V96Im1UjZr0HIyTwgIgv2w" target="_blank">[Arquivos]</a></li> \
+                <li style="margin-bottom: 0;"><a href="https://neocities.org/site/proletarian-library" target="_blank">[Neocities]</a></li> \
+                <li style="margin-bottom: 0;"><a href="https://github.com/solgu3/proletarian-library" target="_blank">[GitHub]</a></li> \
             </ul> \
         </div> \
         </details>';
